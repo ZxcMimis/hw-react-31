@@ -1,0 +1,48 @@
+.subtitle {
+  color: #b050ff;
+  text-align: center;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.item {
+  background-color: #1e1e1e;
+  border: 1px solid #4a0a77;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: box-shadow 0.3s;
+
+  &:hover {
+    box-shadow: 0 0 8px rgba(176, 80, 255, 0.3);
+  }
+}
+
+.text {
+  color: #ffffff;
+  margin: 0;
+  font-size: 16px;
+}
+
+.delete {
+  background-color: transparent;
+  color: #d8b4fe;
+  border: 1px solid #b050ff;
+  padding: 5px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+
+  &:hover {
+    background-color: #b050ff;
+    color: #ffffff;
+  }
+}
